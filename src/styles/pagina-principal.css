@@ -4,16 +4,27 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #f8f8f8;
+    color: #333;
 }
 
-.cabecalho {
-    background-color: #f4f4f4;
-    padding: 20px 10px;
+
+header {
+    background-color: #fff;
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .navbar ul {
     list-style: none;
     display: flex;
+    margin: 0;
     padding: 0;
 }
 
@@ -23,23 +34,55 @@ body {
 
 .navbar ul li a {
     text-decoration: none;
-    color: black;
+    color: #333;
+    font-weight: bold;
 }
 
 .Conta a {
     text-decoration: none;
     margin-left: 15px;
+    color: #007BFF;
+    font-weight: bold;
 }
+
 
 .tituloprincipal {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px;
+    padding: 40px;
+    background-color: #fff;
 }
 
 .texto {
     width: 50%;
+}
+
+.texto h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.texto h2 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.texto button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.texto button:hover {
+    background-color: #0056b3;
 }
 
 .imagem {
@@ -49,26 +92,45 @@ body {
 .imagem img {
     width: 100%;
     height: auto;
+    border-radius: 10px; 
 }
 
 footer {
     background-color: #222;
     color: #fff;
-    padding: 20px;
+    padding: 30px 20px;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
-.rodape .esquerda img {
+footer .esquerda img {
     width: 120px;
 }
 
-.rodape .meio ul {
+footer .meio {
+    flex: 1;
+    margin-left: 20px;
+}
+
+footer .meio h1 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #fff;
+}
+
+footer .meio ul {
     list-style: none;
     padding: 0;
 }
 
-.rodape .meio ul li h2 {
-    color: #fff;
+footer .meio ul li h2 {
+    font-size: 1em;
+    color: #ccc;
     margin-bottom: 10px;
+    cursor: pointer;
+}
+
+footer .meio ul li h2:hover {
+    color: #007BFF;
 }
