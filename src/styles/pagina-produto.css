@@ -3,7 +3,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #f8f8f8;
+
     color: #333;
 }
 
@@ -14,6 +14,19 @@ body {
     padding: 40px;
     background-color: #fff;
 }
+.texto-principal div h1{
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    color: #483078;
+}
+
+.linha-reta {
+    display: block;
+    margin: 0 auto; 
+    margin-bottom: 20px; 
+    max-width: 100%; 
+}
+
 
 .info-produtos{
     display: flex;
@@ -23,48 +36,15 @@ body {
 
 }
 
-.produto-um{
-    width: 50%;
-    padding:40px;
-    text-align:center;
-}
-
-.produto-um h1{
-    font-size: 1.5em;
-    margin-bottom: 15px;
+.produto h1{
+    font-size: 2.5em;
+    margin-bottom: 20px;
     color: #483078;
 }
-.produto-um h2{
-    font-size: 1em;
-    color: #555152;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
 
-.produto-dois{
-    width: 50%;
-    padding:40px;
-    text-align:center;
-}   
-.produto-dois h1{
-    font-size: 1.5em;
-    margin-bottom: 15px;
-    color: #483078;
-}
-.produto-dois h2{
-    font-size: 1em;
+.produto h2{
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    line-height: 1.5;
     color: #555152;
-    margin-bottom: 10px;
-    cursor: pointer;
-}
-.produto-tres{
-    width: 50%;
-    padding:40px;
-    text-align:center;
-}
-
-.produto-quatro{
-    width: 50%;
-    padding:40px;
-    text-align:center;  
 }

@@ -9,45 +9,6 @@ body {
 }
 
 
-header {
-    background-color: #fff;
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-    padding-top: 20px;
-    padding-bottom: 20px;
-}
-
-.navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.navbar ul {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar ul li {
-    margin-right: 20px;
-}
-
-.navbar ul li a {
-    text-decoration: none;
-    color: #333;
-    font-weight: bold;
-}
-
-.Conta a {
-    text-decoration: none;
-    margin-left: 15px;
-    color: #007BFF;
-    font-weight: bold;
-}
-
-
 .tituloprincipal {
     display: flex;
     align-items: center;
