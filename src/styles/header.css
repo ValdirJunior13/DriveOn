@@ -1,27 +1,34 @@
 header {
     background-color: #fff;
-    padding: 20px;
-    border-bottom: 1px solid #ddd;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding: 10px 40px;
+
 }
 
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding-top: 20px;
+}
+
+
+.navbar nav {
+    flex-grow: 1; 
 }
 
 .navbar ul {
     list-style: none;
     display: flex;
+    align-items: center;
     margin: 0;
     padding: 0;
 }
 
 .navbar ul li {
-    margin-right: 20px;
+    margin-right: 50px;
 }
+
+
 
 .navbar ul li a {
     text-decoration: none;
@@ -29,9 +36,31 @@ header {
     font-weight: bold;
 }
 
-.Conta a {
+
+.login {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.login img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.registro {
+    display: inline-block;
+    padding: 10px 20px;
+    border: 2px solid blue;
+    border-radius: 10px;
     text-decoration: none;
-    margin-left: 15px;
-    color: #007BFF;
     font-weight: bold;
+    color: blue;
+}
+
+.registro a:hover {
+    background-color: #483078;
+    color: #fff;
+        
 }
