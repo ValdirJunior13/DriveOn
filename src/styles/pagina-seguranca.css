@@ -1,0 +1,181 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #f8f7ff;
+    overflow-x: hidden;
+    position: relative;
+}
+
+
+.texto-principal {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 120px;
+    background-color: #fff;
+    overflow:hidden;
+}
+
+.texto-principal h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.titulo-principal h1 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.titulo-principal h2 {
+    font-size: 1.2em;
+    color: #555;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.titulo-principal h2 a {
+    color: #6C63FF;
+    text-decoration: none;
+}
+
+.titulo-principal h2 a:hover {
+    text-decoration: underline;
+}
+
+.saiba-mais a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    background-color: #6C63FF;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-weight: 500;
+}
+
+.saiba-mais a:hover {
+    background-color: #5a52d5;
+}
+
+
+.imagem-direita {
+    float: right; 
+    margin-left: 20px; 
+    width: auto; 
+    height: auto; 
+    right: 0px;
+}
+
+.imagem-direita-div img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.parte-baixo {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #fff;
+}
+
+.linha-reta-baixo img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.imagem-fundo img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.texto-inferior h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    top: -50%;
+    position: absolute;
+}
+
+.botao button {
+    background-color: #6C63FF;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    position: absolute;
+}
+
+.botao button:hover {
+    background-color: #5a52d5;
+}
+
+
+
+.esquerda, .meio, .direita {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.esquerda img {
+    max-width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.meio h1, .direita h1 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.lista-meio, .lista-direita {
+    list-style: none;
+}
+
+.lista-meio li, .lista-direita li {
+    margin-bottom: 5px;
+}
+
+.lista-meio a, .lista-direita a {
+    color: white;
+    text-decoration: none;
+}
+
+.lista-meio a:hover, .lista-direita a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #555;
+}
+
+.footer-bottom p {
+    margin-bottom: 10px;
+}
+
+.icones a {
+    margin: 0 10px;
+}
+
+.icones img {
+    width: 24px;
+    height: 24px;
+}

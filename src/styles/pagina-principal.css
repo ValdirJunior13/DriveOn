@@ -18,46 +18,6 @@ body {
     overflow: hidden;
 }
 
-.login {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-    background-color: #fff;
-    color: #7a2ff2;
-    font-size: 16px;
-    cursor: pointer; 
-}
-
-.login a {
-    text-decoration: none;
-    color: #7a2ff2;
-    font-weight: bold;
-}
-
-.login a:hover {
-    color: #0056b3;
-}
-
-.login img {
-    width: 20px;
-    height: auto;
-    margin-right: 10px;
-}
-
-.registro {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 20px;
-    background-color: #fff;
-    border: 1px solid blue; 
-    border-radius: 5px; 
-    color: blue;
-    font-size: 16px;
-    cursor: pointer; 
-}
-
 .texto {
     width: 45%;
     text-align: left;
@@ -72,12 +32,13 @@ body {
 }
 
 .texto h1 {
-    font-size: 36px;
+    font-size: 60px;
     margin-bottom: 24px;
     color: #7a2ff2;
-    line-height: 1.4;
+    line-height: 1.2;
     font-weight: bold;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+
 }
 
 .texto h2 {
@@ -97,6 +58,7 @@ body {
     cursor: pointer;
     font-size: 16px;
     font-weight: bold;
+    margin-bottom
     transition: background-color 0.2s ease;
 }
 
