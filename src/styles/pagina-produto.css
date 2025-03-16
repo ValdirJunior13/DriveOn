@@ -1,5 +1,5 @@
 body { 
-    font-family: Arial, sans-serif;
+
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,9 +12,11 @@ body {
 .linha-reta {
     display: block;
     margin: 10px auto;
-    width: 175px;
+    width: 150px;
+    height: 12px;
     position: relative;
-    left: 0;
+    left: -4.9%;
+    padding-bottom: 40px;
 
     
 
@@ -22,12 +24,15 @@ body {
 .texto-principal {
     text-align: center;
     padding: 40px;
+
 }
 
 .texto-principal h1 {
     font-size: 2.2em;
-    color: #483078;
+    color: #6e34b3;
     margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 .info-produtos {
@@ -39,6 +44,8 @@ body {
     margin: 0 auto;
     flex-wrap: wrap;
     padding-bottom: 200px;
+
+
 }
 
 .produto {
@@ -50,23 +57,31 @@ body {
 }
 
 .produto img {
-    width: 200px;
+    width: 250px;
     height: auto;
     margin-bottom: 15px;
 }
 
 .produto h1 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-    color: #483078;
+    font-size: 1.4em;
+    margin-bottom: 40px;
+    color: #6e34b3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700; 
+    padding-bottom: 1.2px;
 }
 
 
 .produto h2 {
-    font-size: 1em;
-    color: #555152;
-    line-height: 1.5;
-    font-weight: normal;
+
+        font-size: 1em;
+        color: #acacb4;
+        line-height: 1.5;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 400; 
+        padding-bottom: 12px; 
+
+    
 }
 
 @media (max-width: 768px) {

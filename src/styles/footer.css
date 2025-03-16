@@ -26,15 +26,30 @@ footer .conteudo-footer {
     justify-content: space-between;
     padding: 0 80px;
     z-index: 1;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
 footer .esquerda {
     width: 25%;
+    position: relative;
+    top: 30px;
+    left: 120px;
+    margin-bottom: 30px;
 }
 
 footer .esquerda img.logo {
     width: 150px;
     margin-bottom: 20px;
+    position: relative;
+    top: 90px;
+    left: 30px;
+    filter: grayscale(1) brightness(1000%);
+
+}
+footer .esquerda img{
+    width: 150px;   
+    margin-bottom: 5px;
     filter: grayscale(1) brightness(1000%);
 }
 
@@ -44,6 +59,10 @@ footer .esquerda h2 {
     margin-bottom: 15px;
     display: flex;
     align-items: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    position: relative;
+    top: 90px;
 }
 
 footer .esquerda h2 img {
@@ -54,6 +73,10 @@ footer .esquerda h2 img {
 
 footer .meio {
     width: 30%;
+    position: relative;
+    top: 90px;
+    left: 370px;
+
 }
 
 footer .meio h1 {
@@ -61,7 +84,13 @@ footer .meio h1 {
     margin-bottom: 20px;
     color: #fff;
 }
-
+footer .meio .lista-meio h2{
+    color: #fff;
+    font-size: 16px;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+}
 footer .meio ul {
     list-style: none;
     padding: 0;
@@ -71,19 +100,16 @@ footer .meio ul li {
     margin-bottom: 12px;
 }
 
-footer .meio ul li a {
-    color: #ccc;
-    text-decoration: none;
-    font-size: 16px;
-    transition: color 0.3s ease;
-}
-
 footer .meio ul li a:hover {
     color: #fff;
 }
 
 footer .direita {
     width: 30%;
+    position: relative;
+    top: 100px;
+    left: 100px;
+
 }
 
 footer .direita h1 {
@@ -124,9 +150,18 @@ footer .footer-bottom {
 footer .footer-bottom .linha {
     width: 100%;
     height: 0.5px;
-    background-color: #fff;
-    margin-bottom: 35px; 
-    top: 20px; 
+    background-color: #a9a9a9;
+    top: 250px; 
+    position: relative;
+
+}
+
+footer .footer-bottom .texto-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 270px;
 }
 
 footer .footer-bottom p {
@@ -146,6 +181,9 @@ footer .footer-bottom .icones a img {
     filter: brightness(1000%);
     transition: opacity 0.3s ease;
     filter: grayscale(1) brightness(1000%);
+    position: relative;
+    right: -1920px;
+    top: 240px;
 }
 
 footer .footer-bottom .icones a:hover img {
