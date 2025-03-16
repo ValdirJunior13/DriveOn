@@ -1,17 +1,9 @@
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
-}
-
 body {
     background-color: #f8f7ff;
     overflow-x: hidden;
     position: relative;
 }
-
 
 .texto-principal {
     text-align: left;
@@ -89,11 +81,6 @@ body {
     background-color: #fff;
 }
 
-.linha-reta-baixo img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 20px;
-}
 
 .imagem-fundo img {
     width: 100%;
@@ -101,24 +88,55 @@ body {
     margin-bottom: 20px;
     position: relative;
 }
+.linha-reta-baixo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.linha-reta-baixo img {
+    max-width: 12%; 
+    height: auto;
+    margin: 0 10px; 
+    transition: transform 0.3s ease; 
+    position: absolute;
+    top: 52%;
+    right: 20%;
+    left: 52%;
+    z-index: 1;
+    filter: grayscale(1) brightness(3.5);
 
-.texto-inferior h1 {
-    font-size: 2em;
-    color: #333;
+}
+
+.texto-inferior {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 120px;
+    overflow:hidden;
+}
+.texto-inferior h2 {
+    font-size: 2.5em; 
+    color: #5a52d5;
+    font-weight: 500;
+    font-family: 'verdana', sans-serif;
     margin-bottom: 20px;
-    top: -50%;
+    top: 54%;
+    left: 52%;
     position: absolute;
 }
 
+
 .botao button {
-    background-color: #6C63FF;
+    background-color: #5a52d5;
     color: white;
     padding: 10px 25px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s;
-    position: absolute;
 }
 
 .botao button:hover {
@@ -161,21 +179,120 @@ body {
     text-decoration: underline;
 }
 
-.footer-bottom {
+
+.icone-playstore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-top: 20px;
-    padding-top: 20px;
-    border-top: 1px solid #555;
 }
 
-.footer-bottom p {
-    margin-bottom: 10px;
+.icone-playstore img {
+    max-width: 12%; 
+    height: auto;
+    margin: 0 10px; 
+    transition: transform 0.3s ease; 
+    position: absolute;
+    top: 58%;
+    right: 35%
 }
 
-.icones a {
-    margin: 0 10px;
+.icone-appstore{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
-.icones img {
-    width: 24px;
-    height: 24px;
+.icone-appstore img{
+    max-width: 12%; 
+    height: auto;
+    margin: 0 10px; 
+    transition: transform 0.3s ease; 
+    position: absolute;
+    top: 58%;
+    right: 19%;
+}
+
+.setas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+.setas .texto-seta-um, .texto-seta-dois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.setas .seta-um, .seta-dois{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.setas .seta-um img {
+    max-width: 12%; 
+    height: auto;
+    margin: 0 10px; 
+    transition: transform 0.3s ease; 
+    position: absolute;
+    top: 65%;
+    right: 10%;
+}
+.setas .seta-dois img {
+    max-width: 102%; 
+    height: auto;
+    margin: 0 10px; 
+    transition: transform 0.3s ease; 
+    position: absolute;
+    top: 65%;
+    left: 40%;
+
+}
+
+.setas .texto-seta-um h3{
+    font-size: 2.5em; 
+    color: #5a52d5;
+    font-weight: 500;
+    font-family: 'verdana', sans-serif;
+    margin-bottom: 20px;
+    top: 65%;
+    left: 25%;
+    position: absolute;
+}
+.setas .texto-seta-dois h3{
+    font-size: 2.5em; 
+    color: #5a52d5;
+    font-weight: 500;
+    font-family: 'verdana', sans-serif;
+    margin-bottom: 20px;
+    top: 65%;
+    right: 16%;
+    position: absolute;
+
+}
+.setas .linha-reta-seta-um img {
+    max-width: 12%; 
+    height: auto;
+    margin: 0 10px; 
+    transition: transform 0.3s ease; 
+    position: absolute;
+    top: 68%;
+    right: 67%;
+}
+
+
+.setas .linha-reta-seta-dois img {
+    max-width: 12%; 
+    height: auto;
+    margin: 0 10px; 
+    transition: transform 0.3s ease; 
+    position: absolute;
+    top: 68%;
+    right: 19.5%;
 }
