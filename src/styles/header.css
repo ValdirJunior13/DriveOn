@@ -8,7 +8,9 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 40px;
+    padding: 40px 80px;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -22,17 +24,16 @@ header {
     align-items: center;
     margin: 0;
     padding: 0;
+
 }
 
 .navbar ul li {
     margin-right: 50px;
 }
 
-
-
 .navbar ul li a {
     text-decoration: none;
-    color: #333;
+    color:  #acacb4;
     font-weight: bold;
 }
 
@@ -40,27 +41,34 @@ header {
 .login {
     display: flex;
     align-items: center;
-    margin-right: 20px;
+    margin-right: 40px;
+    color: #7B1FA2;
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
 }
 
+a{
+    text-decoration: none;
+}
 .login img {
     width: 20px;
-    height: 20px;
+    height: 23px;
     margin-right: 5px;
+
+}
+
+.login a:hover{
+    color: #9370DB;
+
 }
 
 .registro {
     display: inline-block;
     padding: 10px 20px;
-    border: 2px solid blue;
+    border: 2px #1976D2 solid; 
     border-radius: 10px;
     text-decoration: none;
     font-weight: bold;
-    color: blue;
-}
-
-.registro a:hover {
-    background-color: #483078;
-    color: #fff;
-        
+    background-color: #fff; 
+    color: #1976D2;
 }

@@ -9,7 +9,7 @@
 }
 
 .titulo-principal{
-    margin-bottom: 40px;
+    margin-bottom: 30px;
     
 }
 .titulo-principal h1{
@@ -56,8 +56,8 @@
 .titulo-principal .span{
     display: block;
     margin-top: 15px;
-    color: #7a2ff2;
 }
+
 .texto-principal .linha-span {
     position: relative;
     left: 67.5%;
@@ -69,6 +69,7 @@
     margin: 5 10px;
     transition: transform 0.3s ease;
     position: absolute;
+    
 }
 .saiba-mais {
     font-size: 16px;
@@ -80,15 +81,15 @@
     padding: 10px 20px; 
     display: inline-block; 
     position: absolute;
-    top: 1900px;
+    top: 1950px;
     z-index: 1;
-    right: 83%;
+    right: 75%;
     
 }
 
 .saiba-mais a:hover{
     background-color: #2a79f6; 
-    color: #fff;
+    color: #2a79f6;
 
 }
 .imagem-direita {
@@ -115,7 +116,9 @@
     position: relative;
 
 }
-
+a {
+    text-decoration: none;
+}
 .linha-reta-baixo{
     display: flex;
     justify-content: center;
@@ -128,8 +131,7 @@
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 52%;
-    right: 20%;
+    top: 53%;
     left: 52%;
     z-index: 1;
     filter: grayscale(1) brightness(3.5);
@@ -151,7 +153,7 @@
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
-    top: 248%;
+    top: 258%;
     left: 47%;
     position: absolute;
 }
@@ -170,7 +172,7 @@
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 265%;
+    top: 275%;
     right: 40.5%
 }
 
@@ -187,7 +189,7 @@
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 265.3%;
+    top: 275.3%;
     right: 24.5%;
 }
 
@@ -204,7 +206,7 @@
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 238%;
+    top: 248%;
     left: 46.5%;
     z-index: 1;
     filter: grayscale(1) brightness(3.5);
@@ -222,7 +224,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: px;
     text-align: left;
 }
 
@@ -230,7 +232,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
 }
 .setas .seta-um img {
     max-width: 12%; 
@@ -238,7 +239,7 @@
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top:315%;
+    top:325%;
     right: 10%;
 }
 .setas .seta-dois img {
@@ -247,7 +248,7 @@
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 315%;
+    top: 325%;
     left: 40%;
 
 }
@@ -258,7 +259,7 @@
     font-weight: 500;
     font-family: 'verdana', sans-serif;
     margin-bottom: 20px;
-    top: 315%;
+    top: 325%;
     left: 15%;
     position: absolute;
 }
@@ -268,7 +269,7 @@
     font-weight: 520;
     font-family: 'verdana', sans-serif;
     margin-bottom: 20px;
-    top: 315%;
+    top: 325%;
     right: 20%;
     position: absolute;
 
@@ -279,7 +280,7 @@
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 330%;
+    top: 340%;
     right: 73%;
 }
 
@@ -290,6 +291,6 @@
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 330%;
+    top: 340%;
     left: 62.5%;
 }
