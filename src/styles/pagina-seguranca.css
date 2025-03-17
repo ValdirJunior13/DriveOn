@@ -1,66 +1,83 @@
 
 body {
-    background-color: #f8f7ff;
-    overflow-x: hidden;
-    position: relative;
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: Arial, sans-serif; 
+    background-color: #ffffff; 
+    color: #000000; 
 }
 
 .texto-principal {
-    text-align: left;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 60px 120px;
-    background-color: #fff;
-    overflow:hidden;
+    text-align: center; 
 }
 
-.texto-principal h1 {
-    font-size: 2.5em;
-    color: #333;
-    margin-bottom: 20px;
+.titulo-principal{
+    margin-bottom: 40px;
 }
-
-.titulo-principal h1 {
-    font-size: 2.5em;
-    color: #333;
-    margin-bottom: 20px;
+.titulo-principal h1{
+    font-size: 40px;
+    margin-bottom: 24px;
+    color: #7a2ff2;
+    line-height: 1.2;
+    margin-bottom: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
-
-.titulo-principal h2 {
-    font-size: 1.2em;
-    color: #555;
+.titulo-principal h2{
+    font-size: 22px;
+    margin-bottom: 32px;
     line-height: 1.6;
-    font-weight: 400;
-    margin-bottom: 20px;
+    color: #666;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
 }
 
-.titulo-principal h2 a {
-    color: #6C63FF;
+.titulo-principal .linha-titulo{
+    display: block;
+    margin: 10px auto;
+    width: 150px;
+    height: 12px;
+    position: relative;
+    left: -39.9%;
+    padding-bottom: 40px;
+}
+
+.titulo-principal .span{
+    display: block;
+    margin-top: 15px;
+    color: #7a2ff2;
+}
+.texto-principal .linha-span {
+    width: 20%;
+    max-width: 0px;
+    height: auto;
+    position: relative;
+    left: 67.5%;
+
+}
+
+.saiba-mais {
+    font-size: 16px;
+    font-weight: 700;
     text-decoration: none;
-}
-
-.titulo-principal h2 a:hover {
-    text-decoration: underline;
-}
-
-.saiba-mais a {
-    display: inline-block;
-    text-decoration: none;
-    color: white;
-    background-color: #6C63FF;
-    padding: 10px 25px;
+    color: #2a79f6;
+    font-family: 'Montserrat', sans-serif;
+    margin: 20px auto; 
+    padding: 10px 20px; 
+    display: inline-block; 
+    border: 2px solid #2a79f6; 
     border-radius: 5px;
-    transition: background-color 0.3s;
-    font-weight: 500;
 }
 
-.saiba-mais a:hover {
-    background-color: #5a52d5;
+.saiba-mais a:hover{
+    background-color: #2a79f6; 
+    color: #fff;
+
 }
-
-
 .imagem-direita {
     float: right; 
     margin-left: 20px; 
@@ -73,21 +90,18 @@ body {
     max-width: 100%;
     height: auto;
 }
-
-
 .parte-baixo {
     text-align: center;
     padding: 50px 20px;
     background-color: #fff;
 }
-
-
 .imagem-fundo img {
     width: 100%;
     height: auto;
     margin-bottom: 20px;
     position: relative;
 }
+
 .linha-reta-baixo{
     display: flex;
     justify-content: center;
@@ -121,62 +135,11 @@ body {
     font-size: 2.5em; 
     color: #5a52d5;
     font-weight: 500;
-    font-family: 'verdana', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
-    top: 54%;
-    left: 52%;
+    top: 178%;
+    left: 50%;
     position: absolute;
-}
-
-
-.botao button {
-    background-color: #5a52d5;
-    color: white;
-    padding: 10px 25px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-.botao button:hover {
-    background-color: #5a52d5;
-}
-
-
-
-.esquerda, .meio, .direita {
-    flex: 1;
-    min-width: 200px;
-    margin: 10px;
-}
-
-.esquerda img {
-    max-width: 100px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.meio h1, .direita h1 {
-    font-size: 1.5em;
-    margin-bottom: 10px;
-}
-
-.lista-meio, .lista-direita {
-    list-style: none;
-}
-
-.lista-meio li, .lista-direita li {
-    margin-bottom: 5px;
-}
-
-.lista-meio a, .lista-direita a {
-    color: white;
-    text-decoration: none;
-}
-
-.lista-meio a:hover, .lista-direita a:hover {
-    text-decoration: underline;
 }
 
 
@@ -193,8 +156,8 @@ body {
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 58%;
-    right: 35%
+    top: 188%;
+    right: 37%
 }
 
 .icone-appstore{
@@ -210,8 +173,29 @@ body {
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 58%;
+    top: 188%;
     right: 19%;
+}
+
+.linha-reta-baixo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.linha-reta-baixo img {
+    max-width: 12%; 
+    height: auto;
+    margin: 0 10px; 
+    transition: transform 0.3s ease; 
+    position: absolute;
+    top: 170%;
+    right: 20%;
+    left: 50.5%;
+    z-index: 1;
+    filter: grayscale(1) brightness(3.5);
+
 }
 
 .setas{
