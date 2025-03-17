@@ -1,12 +1,5 @@
 
-body {
-    margin: 0; 
-    padding: 0; 
-    box-sizing: border-box; 
-    font-family: Arial, sans-serif; 
-    background-color: #ffffff; 
-    color: #000000; 
-}
+
 
 .texto-principal {
     display: flex;
@@ -17,6 +10,7 @@ body {
 
 .titulo-principal{
     margin-bottom: 40px;
+    
 }
 .titulo-principal h1{
     font-size: 40px;
@@ -26,6 +20,10 @@ body {
     margin-bottom: 100px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    text-align: left;
+    position: relative;
+    top: 1380px;
+    right: 50%;
 }
 .titulo-principal h2{
     font-size: 22px;
@@ -34,6 +32,12 @@ body {
     color: #666;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
+    text-align: left;
+    position: relative;
+    top: 1380px;
+    right: 50%;
+    z-index: 1;
+    padding-bottom: 80px;
 }
 
 .titulo-principal .linha-titulo{
@@ -42,8 +46,11 @@ body {
     width: 150px;
     height: 12px;
     position: relative;
-    left: -39.9%;
-    padding-bottom: 40px;
+    padding-bottom: 70px;
+    top: 1380px;
+    right: 89%;
+    z-index: 1;
+
 }
 
 .titulo-principal .span{
@@ -52,14 +59,17 @@ body {
     color: #7a2ff2;
 }
 .texto-principal .linha-span {
-    width: 20%;
-    max-width: 0px;
-    height: auto;
     position: relative;
     left: 67.5%;
 
 }
-
+.texto-principal .linha-span img{
+    width: 8%;
+    height: auto;
+    margin: 5 10px;
+    transition: transform 0.3s ease;
+    position: absolute;
+}
 .saiba-mais {
     font-size: 16px;
     font-weight: 700;
@@ -69,8 +79,11 @@ body {
     margin: 20px auto; 
     padding: 10px 20px; 
     display: inline-block; 
-    border: 2px solid #2a79f6; 
-    border-radius: 5px;
+    position: absolute;
+    top: 1900px;
+    z-index: 1;
+    right: 83%;
+    
 }
 
 .saiba-mais a:hover{
@@ -98,8 +111,9 @@ body {
 .imagem-fundo img {
     width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    margin-bottom: 120px;
     position: relative;
+
 }
 
 .linha-reta-baixo{
@@ -123,7 +137,7 @@ body {
 }
 
 .texto-inferior {
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,13 +146,13 @@ body {
     overflow:hidden;
 }
 .texto-inferior h2 {
-    font-size: 2.5em; 
+    font-size: 2.2em; 
     color: #5a52d5;
     font-weight: 500;
     font-family: 'Montserrat', sans-serif;
     margin-bottom: 20px;
-    top: 178%;
-    left: 50%;
+    top: 248%;
+    left: 47%;
     position: absolute;
 }
 
@@ -156,8 +170,8 @@ body {
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 188%;
-    right: 37%
+    top: 265%;
+    right: 40.5%
 }
 
 .icone-appstore{
@@ -173,8 +187,8 @@ body {
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 188%;
-    right: 19%;
+    top: 265.3%;
+    right: 24.5%;
 }
 
 .linha-reta-baixo{
@@ -185,14 +199,13 @@ body {
 }
 
 .linha-reta-baixo img {
-    max-width: 12%; 
+    max-width: 8.5%; 
     height: auto;
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 170%;
-    right: 20%;
-    left: 50.5%;
+    top: 238%;
+    left: 46.5%;
     z-index: 1;
     filter: grayscale(1) brightness(3.5);
 
@@ -210,7 +223,7 @@ body {
     justify-content: center;
     align-items: center;
     margin-top: 20px;
-    text-align: center;
+    text-align: left;
 }
 
 .setas .seta-um, .seta-dois{
@@ -225,7 +238,7 @@ body {
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 65%;
+    top:315%;
     right: 10%;
 }
 .setas .seta-dois img {
@@ -234,7 +247,7 @@ body {
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 65%;
+    top: 315%;
     left: 40%;
 
 }
@@ -245,18 +258,18 @@ body {
     font-weight: 500;
     font-family: 'verdana', sans-serif;
     margin-bottom: 20px;
-    top: 65%;
-    left: 25%;
+    top: 315%;
+    left: 15%;
     position: absolute;
 }
 .setas .texto-seta-dois h3{
     font-size: 2.5em; 
     color: #5a52d5;
-    font-weight: 500;
+    font-weight: 520;
     font-family: 'verdana', sans-serif;
     margin-bottom: 20px;
-    top: 65%;
-    right: 16%;
+    top: 315%;
+    right: 20%;
     position: absolute;
 
 }
@@ -266,8 +279,8 @@ body {
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 68%;
-    right: 67%;
+    top: 330%;
+    right: 73%;
 }
 
 
@@ -277,6 +290,6 @@ body {
     margin: 0 10px; 
     transition: transform 0.3s ease; 
     position: absolute;
-    top: 68%;
-    right: 19.5%;
+    top: 330%;
+    left: 62.5%;
 }
